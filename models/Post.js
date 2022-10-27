@@ -13,7 +13,11 @@ const PostSchema = new mongoose.Schema({
     type: String,
     require: true,
   },
-  caption: {
+  description: {
+    type: String,
+    required: true,
+  },
+  artist: {
     type: String,
     required: true,
   },
